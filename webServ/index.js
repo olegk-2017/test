@@ -8,6 +8,7 @@ var server = http.createServer(function(request, response) {
     response.writeHead(200, {'Content-Type': 'text/html'});
     var myReadStream = fs.createReadStream(__dirname + '/3.html', 'utf8');
     myReadStream.pipe(response);
+
 });
 
 
