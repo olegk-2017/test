@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const hostname = '192.168.1.31';
+const hostname = '0.0.0.0';
 const port = 8080;
 
 var server = http.createServer(function(request, response) {
